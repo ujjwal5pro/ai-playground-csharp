@@ -1,34 +1,73 @@
-# Gradle files
-.gradle/
-build/
+# Build folders
+bin/
+obj/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Log/OS Files
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Logs
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Environment files
+.env
+.env.*
 
-# Keystore files
-*.jks
-*.keystore
+# Secrets
+secrets.json
+appsettings.Development.json
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Test results
+TestResults/
 
-# Android Profiling
-*.hprof
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Azure Functions
+local.settings.json
+
+# Node modules (if frontend exists)
+node_modules/
+
+# SQLite databases
+*.db
+*.sqlite
+
+# Generated files
+Generated/
+
+# Docker
+docker-compose.override.yml
